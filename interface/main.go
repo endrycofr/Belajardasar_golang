@@ -39,7 +39,7 @@ func main() {
 
 	statusService := service.StatusUserService() //membuat instance struct UserService dari package service tanpa dependency injection
 
-	status, err := statusService.SetRepository(0) //memanggil method SetRepository dari struct UserService
+	status, err := statusService.SetRepository(0) //memanggil method SetRepository dari struct UserService dan validasi error dan hasil tersimpan di variable status dan err
 	if err != nil {
 		fmt.Println("error:", err) //menampilkan error jika ada
 		return                     //menghentikan eksekusi program jika ada error
