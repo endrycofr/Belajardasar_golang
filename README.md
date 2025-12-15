@@ -147,14 +147,9 @@ Repository ini bersifat **learning repository**, sehingga:
 
 Jika repository ini bermanfaat:
 
-* Jangan lupa ⭐ star
+* Jangan lupa sholat
 * Silakan fork untuk latihan sendiri
 
 Happy Coding with Go! 🐹🔥
 
-```
 
-
-
-Tinggal bilang aja 👍
-```
